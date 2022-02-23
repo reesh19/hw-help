@@ -1,11 +1,9 @@
-# hw-help
+# hwhelp - REQUIRES TWITTER-DEV CREDENTIALS
 This package is used to search tweeter given very advanced queries. 
-
-# REQUIRES TWITTER-DEV CREDENTIALS
 
 Usage:
 
-1 - Clone repository into directory of your choice
+1 - Clone repository into directory of your choice/n
 
 2 - Install dependencies listed in Pipfile
 
@@ -13,12 +11,12 @@ Usage:
 
 4 - Run
 
-  a) via your terminal: 
-    python hwhelp.py
+    a) via your terminal: 
+        python hwhelp.py
 
-  b) as a module: 
-    from hwhelp import MathAlacarte
-    m = MathAlacarte(query=<your query>)
-    m.tweets_df
+    b) as a module: 
+        from hwhelp import MathAlacarte
+        m = MathAlacarte(query=<your query>)
+        m.tweets_df
  
 I will add some examples in the next few days
